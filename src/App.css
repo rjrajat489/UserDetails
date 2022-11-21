@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.light{
+  background-color: white;
+  min-height: 100vh;
+   
+
+}
+
+.light table{
+  border: 1px solid black ;
+  border-collapse: collapse;
+}
+
+.light th ,td {
+  border: 1px solid black ;
+  padding: 5px;
+}
+
+.light td {
+  border: 1px solid black ;
+  padding: 5px;
+}
+.dark{
+   background-color: black;
+   min-height: 100vh;
+  color: white;
+  
+}
+.dark table{
+  border: 1px solid white ;
+  border-collapse: collapse;
+}
+
+.dark th, td {
+  border: 1px solid white ;
+  padding: 5px;
+}
+.dark td {
+  border: 1px solid white ;
+  padding: 5px;
+}
+
+
+.formError{
+  color: red;
+}
+
+.formClass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ gap: 50px;
+}
+
+::placeholder{
+  padding: 5px;
+  font-size: 13px;
+}
+
+.submit{
+  border-radius: 50px !important;
+}
+
+.toogle{
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+
+.user-table{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
